@@ -1,0 +1,27 @@
+{
+  "name": "Vibrostroymashina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Alexandr Bombin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssimport": "^5.1.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "3.1.0",
+    "gulp-sourcemaps": "2.4.1",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

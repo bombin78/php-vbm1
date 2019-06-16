@@ -1,0 +1,30 @@
+$mainBlock : '.footer';
+//----------------------------------------
+
+@mixin float-left($width) {
+	float : left;
+	@if ($width != 'none') {
+		width : $width;
+	}
+}
+//----------------------------------------
+
+#{$mainBlock} {
+	display : inline-block;
+	padding : 10px 20px;
+
+	color   : $darkGray;
+
+	&_company {
+		@include float-left(410px);
+	}
+
+	&_location {
+		@include float-left(250px);
+	}
+
+	&_phones {
+		@include float-left(230px);
+		text-align: right;
+	}
+}

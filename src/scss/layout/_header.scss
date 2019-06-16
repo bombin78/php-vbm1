@@ -1,0 +1,62 @@
+$mainBlock  : '.header';
+$panel      : '.control-panel';
+//----------------------------------------
+
+#{$mainBlock} {
+	background : url('../../images/oblaka.png') repeat-x;
+	height     : 100%;
+	margin     : 0 auto;
+	position   : relative;
+	width      : 100%;
+	&:before {
+		content     : "";
+		position    : absolute;
+		left        : 50%;
+		margin-left : -300px;
+		height      : 100%;
+		width       : 600px;
+
+		background  : url('../../images/fon_head.png') no-repeat;
+	}
+
+	#{$mainBlock}_block {
+		position   : absolute;
+		left       : 0;
+		top        : 40px;
+		height     : 50px;
+		width      : 100%;
+		z-index    : 10;
+
+		background-color: rgba(8, 35, 68, 0.8);
+		//#{$mainBlock}_block-control#{$panel} {}
+		&._fixed {
+			position : fixed;
+			top      : 0;
+			left     : 0;
+			min-width: 940px;
+
+			background-color: rgba(8, 35, 68, 0.9);
+		}
+	}
+}
+
+#{$panel} {
+	position : relative;
+	margin   : 0 auto;
+	height   : 100%;
+	width    : 940px;
+	&_logo {
+		display        : block;
+		position       : absolute;
+		top            : 11px;
+		left           : 20px;
+
+		letter-spacing : 1px;
+		font-weight    : bold;
+		font-size      : $fontSize + 6px;
+		text-shadow    : $textShadowDark;
+		&:hover {
+			color : $orange;
+		}
+	}
+}

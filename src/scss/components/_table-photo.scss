@@ -1,0 +1,29 @@
+//@import "mixins/mixins";
+//----------------------------------------
+
+$mainBlock : '.table-photo';
+//----------------------------------------
+
+#{$mainBlock} {
+	width : 100%;
+	&_row {
+	}
+	&_cell {
+		width      : 50%;
+	}
+	&_cell-link {
+		display : block;
+		margin  : 10px auto;
+		width   : 75%;
+
+		outline : 2px solid $middleGray;
+		&:hover {
+			outline : 2px solid $yellow;
+		}
+	}
+	&_cell-img {
+		width          : 100%;
+
+		vertical-align : bottom;
+	}
+}

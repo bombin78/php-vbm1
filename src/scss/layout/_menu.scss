@@ -1,0 +1,37 @@
+$mainBlock : '.menu';
+//----------------------------------------
+
+#{$mainBlock} {
+	height   : 50px;
+	position : absolute;
+	right    : 0;
+	top      : 0;
+
+	&_list {
+		float  : right;
+		height : 100%;
+		#{$mainBlock}_item {
+			float        : left;
+			margin-top   : 19px;
+			padding      : 0 12px;
+
+			border-right : 1px solid $lightGray;
+			line-height  : 12px;
+			list-style   : none;
+			&._end {
+				margin-right : 18px;
+
+				border       : none;
+			}
+			#{$mainBlock}_link {
+				color           : #e7f6fe;
+				text-decoration : none;
+				text-shadow     : $textShadowDark;
+				&:hover,
+				&._active {
+					color : $yellow;;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+$mainBlock : '.documents';
+$review : '.documents-review';
+$pages : '.document-pages';
+//----------------------------------------
+
+#{$mainBlock} {
+	@include main-content();
+	//&_content-title.content-title {}
+	//&_documents-review#{$block_10}{}
+}
+
+#{$review} {
+	&_list {
+		#{$review}_title {
+			padding     : 10px 0;
+
+			font-size   : $fontSize + 2px;
+			font-weight : bold;
+			&_list.document-pages {
+			}
+		}
+		//#{$block_10}_list#{$block_1010} {}
+	}
+}
+
+#{$pages} {
+	display : inline-block;
+	margin  : 10px 0;
+	width   : 100%;
+	&_item {
+		float      : left;
+		width      : 33.3%;
+
+		text-align : center;
+		#{$pages}_link {
+			cursor  : pointer;
+			&:hover {
+				outline : 2px solid $yellow;
+			}
+		}
+		#{$pages}_img {
+			vertical-align: bottom;
+		}
+	}
+}

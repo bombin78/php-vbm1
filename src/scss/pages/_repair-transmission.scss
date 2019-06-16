@@ -1,0 +1,8 @@
+$mainBlock : '.repair-transmission';
+//----------------------------------------
+
+
+#{$mainBlock} {
+	@include main-content();
+	//&_content-title.content-title {}
+}

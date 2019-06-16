@@ -1,0 +1,8 @@
+$mainBlock : '.repair-ssps';
+//----------------------------------------
+
+
+#{$mainBlock} {
+	@include main-content();
+	//&_content-title.content-title {}
+}

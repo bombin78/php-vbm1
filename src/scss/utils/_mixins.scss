@@ -1,0 +1,14 @@
+@mixin main-content() {
+	float      : left;
+	position   : relative;
+	margin     : 10px;
+	padding    : 10px 20px;
+	height     : -moz-calc(100% - 40px);
+	height     : -webkit-calc(100% - 40px);
+	height     : calc(100% - 40px);
+	min-height : 320px;//минимальная высота не должна быть менее высоты боковой панели
+	width      : 620px;
+
+	background : #e8eff8;
+	text-align : left;
+}

@@ -1,0 +1,15 @@
+//@import "mixins/mixins";
+//----------------------------------------
+
+$mainBlock : '.content-title';
+//----------------------------------------
+
+#{$mainBlock} {
+	border-bottom  : 2px solid $yellow;
+	padding-bottom : 10px;
+
+	font-size      : $fontSize + 7px;
+	font-weight    : bold;
+	color          : $darkBlue;
+	text-shadow    : $textShadowLight;
+}

@@ -1,0 +1,72 @@
+$mainBlock  : '.contacts';
+$info       : '.basic-info';
+$map        : '.location-map';
+$managers   : '.top-managers';
+$details    : '.company-details';
+//----------------------------------------
+
+#{$mainBlock} {
+	@include main-content();
+	//&_basic#{$info} {}
+	//&_company#{$details} {}
+}
+
+#{$info} {
+	display : inline-block;
+	&_title {
+		margin-top  : 5px;
+
+		font-size   : $fontSize + 2px;
+		font-weight : bold;
+	}
+	&_location#{$map},
+	&_top#{$managers} {
+		float      : left;
+		margin-top : 15px;
+	}
+}
+
+#{$map} {
+	width : 413px;
+	&_text {
+	}
+	&_img {
+		margin-top : 5px;
+		height     : 270px;
+		width      : 385px;
+
+		border     : 2px solid $lightGray;
+	}
+}
+
+#{$managers} {
+	width : 206px;
+	&_block {
+		margin-top : 20px;
+		&:first-child {
+			margin-top : 22px;
+		}
+		#{$managers}_mail {
+			color : $darkBlue;
+			&:hover {
+				text-decoration : underline;
+			}
+		}
+	}
+}
+
+#{$details} {
+	margin-top : 20px;
+
+	border-top: 1px solid $middleGray;
+	&_title {
+		margin-top : 5px;
+
+		font-size   : $fontSize + 2px;
+		font-weight : bold;
+	}
+	&_info {
+		margin-top  : 8px;
+		line-height : 1.5;
+	}
+}

@@ -1,0 +1,15 @@
+$mainBlock: '.about-company';
+//----------------------------------------
+
+#{$mainBlock} {
+	@include main-content();
+	//&_content-title.content-title {}
+	&_text {
+		padding     : 10px 0;
+
+		line-height : 1.3;
+		text-align  : justify;
+		text-indent : 25px;
+	}
+	//&_table-photo.table-photo {}
+}

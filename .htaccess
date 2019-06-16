@@ -1,0 +1,15 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+RewriteRule ^glavnaya$ index.php [L]
+RewriteRule ^glavnaya$ index.php?page=1 [L]
+RewriteRule ^o-kompanii$ index.php?page=2 [L]
+RewriteRule ^documenty$ index.php?page=3 [L]
+RewriteRule ^kontakty$ index.php?page=4 [L]
+
+RewriteRule ^remont-ssps$ index.php?page=10 [L]
+RewriteRule ^remont-zdkranov$ index.php?page=11 [L]
+RewriteRule ^remont-agregatov$ index.php?page=12 [L]
+RewriteRule ^remont-dvigateley$ index.php?page=13 [L]
+RewriteRule ^remont-gidroperedach$ index.php?page=14 [L]
+RewriteRule ^sale-railway-equipment$ index.php?page=15 [L]

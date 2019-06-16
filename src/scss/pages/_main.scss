@@ -1,0 +1,16 @@
+$mainBlock : '.main';
+//----------------------------------------
+
+#{$mainBlock} {
+	@include main-content();
+	//&_content-title.content-title {}
+	&_slider.theme-bar {
+		margin : 25px auto;
+		width  : 500px;
+		height : auto;
+
+		border : 1px solid $lightGray;
+		border-radius: 5px;
+		box-shadow: 5px 5px 10px 3px #666666;
+	}
+}

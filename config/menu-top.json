@@ -1,0 +1,22 @@
+[
+    {
+        "url":"index.php?page=1",
+        "name":"Главная",
+        "alias":"glavnaya"
+    },
+    {
+        "url":"index.php?page=2",
+        "name":"О компании",
+        "alias":"o-kompanii"
+    },
+    {
+        "url":"index.php?page=3",
+        "name":"Документы",
+        "alias":"documenty"
+    },
+    {
+        "url":"index.php?page=4",
+        "name":"Контакты",
+        "alias":"kontakty"
+    }
+]

@@ -1,19 +1,18 @@
 <?php
-$query_m = "SELECT * FROM ser_menu";
-$result_m = mysqli_query($db_server, $query_m);
-$rows_m = mysqli_num_rows($result_m);
+$topMenu = json_decode(file_get_contents($abs_address.'/config/menu-top.json'),true);
+$menuLength = count($topMenu);
 
 echo "<nav class='control-panel_menu menu'><!-- Меню сайта -->";
 echo "<ul class = 'menu_list'>";
-for ($i = 1; $i <= $rows_m; $i++) {
-	
-	$row_m = mysqli_fetch_row($result_m);
-	$faa = (($i == $active_item)) ? " _active" : "";
-	$fae = (($i == $rows_m)) ? " _end" : "";
+for ($i = 0; $i < $menuLength; $i++) {
 
-	echo "<li class = 'menu_item" . $fae . "''>";
-	echo "<a class = 'menu_link" . $faa . "' href = '" . $abs_address . $row_m[2] . "'>";
-	echo $row_m[1];
+	$countItem = $i + 1;
+	$cssClassActive = ($countItem == $activeItem) ? " _active" : "";
+	$cssClassEnd = ($countItem == $menuLength) ? " _end" : "";
+
+	echo "<li class = 'menu_item" . $cssClassEnd ."''>";
+	echo "<a class = 'menu_link" . $cssClassActive . "' href = '" . $abs_address . $topMenu[$i][$linkParam] . "'>";
+	echo $topMenu[$i]['name'];
 	echo "</a>";
 	echo "</li>";
 }

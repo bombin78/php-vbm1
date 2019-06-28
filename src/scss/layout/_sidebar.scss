@@ -1,19 +1,12 @@
-$mainBlock  : '.sidebar-container';
-$sidebar    : '.sidebar';
-$menu       : '.sidebar-menu';
-//----------------------------------------
-
-#{$mainBlock} {
+.sidebar-container {
 	float      : left;
 	position   : relative;
 	margin     : 10px 0;
 	min-height : 1px;
 	width      : 260px;
-
-	//&_block#{$sidebar}{}
 }
 
-#{$sidebar} {
+.sidebar {
 	margin-left : 10px;
 	width       : 250px;
 
@@ -31,37 +24,41 @@ $menu       : '.sidebar-menu';
 		background    : $yellow;
 		text-shadow   : $textShadowLight;
 	}
-	//&_sidebar-menu #{$menu} {}
 }
 
-#{$menu} {
+.sidebar-menu {
 	position : relative;
+
 	&_item {
 		padding : 0 10px;
-		#{$menu}_block-link {
-			position : relative;
-			#{$menu}_link {
-				display     : block;
-				margin-left : 30px;
-				padding     : 3px 0;
-				box-sizing  : border-box;
+	}
 
-				color       : $white;
-				&:before {
-					content    : '';
-					position   : absolute;
-					top        : 0;
-					left       : 0;
-					height     : 20px;
-					width      : 40px;
+	&_block-link {
+		position : relative;
+	}
 
-					background : url(../../images/arrow.gif) 0 8px no-repeat;
-				}
-				&:hover,
-				&._active {
-					color : $yellow;
-				}
-			}
+	&_link {
+		display     : block;
+		margin-left : 30px;
+		padding     : 3px 0;
+		box-sizing  : border-box;
+
+		color       : $white;
+
+		&:before {
+			content    : '';
+			position   : absolute;
+			top        : 0;
+			left       : 0;
+			height     : 20px;
+			width      : 40px;
+
+			background : url(../../images/arrow.gif) 0 8px no-repeat;
+		}
+
+		&:hover,
+		&._active {
+			color : $yellow;
 		}
 	}
 }

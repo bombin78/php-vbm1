@@ -1,7 +1,4 @@
-$mainBlock : '.menu';
-//----------------------------------------
-
-#{$mainBlock} {
+.menu {
 	height   : 50px;
 	position : absolute;
 	right    : 0;
@@ -10,28 +7,32 @@ $mainBlock : '.menu';
 	&_list {
 		float  : right;
 		height : 100%;
-		#{$mainBlock}_item {
-			float        : left;
-			margin-top   : 19px;
-			padding      : 0 12px;
+	}
 
-			border-right : 1px solid $lightGray;
-			line-height  : 12px;
-			list-style   : none;
-			&._end {
-				margin-right : 18px;
+	&_item {
+		float        : left;
+		margin-top   : 19px;
+		padding      : 0 12px;
 
-				border       : none;
-			}
-			#{$mainBlock}_link {
-				color           : #e7f6fe;
-				text-decoration : none;
-				text-shadow     : $textShadowDark;
-				&:hover,
-				&._active {
-					color : $yellow;;
-				}
-			}
+		border-right : 1px solid $lightGray;
+		line-height  : 12px;
+		list-style   : none;
+
+		&._end {
+			margin-right : 18px;
+
+			border       : none;
+		}
+	}
+
+	&_link {
+		color           : #e7f6fe;
+		text-decoration : none;
+		text-shadow     : $textShadowDark;
+
+		&:hover,
+		&._active {
+			color : $yellow;
 		}
 	}
 }

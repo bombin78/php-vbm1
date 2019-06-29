@@ -1,0 +1,38 @@
+$borderTable : 1px solid $black;
+
+@mixin border-cell($padding) {
+	padding : $padding;
+	border  : $borderTable;
+}
+
+//----------------------------------------
+
+.table-description {
+    margin-bottom  : 10px;
+    width          : 100%;
+
+    border         : $borderTable;
+    border-spacing : 0;
+
+    &_caption {
+        margin-bottom : 5px;
+
+        font-size     : $fontSize + 2px;
+        text-align    : center;
+    }
+    &_head {
+        background  : $middleGray;
+        font-weight : bold;
+    }
+
+    &_head-question,
+    &_head-answer {
+        @include border-cell(5px 10px);
+    }
+
+
+    &_body-label,
+    &_body-value {
+        @include border-cell(5px 10px);
+    }
+}

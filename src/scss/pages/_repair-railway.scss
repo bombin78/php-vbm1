@@ -1,0 +1,19 @@
+.repair-railway {
+	@include main-content();
+}
+
+.repair-list {
+	margin-top : 10px;
+
+	&_title {
+		font-size : $fontSize + 2px;
+	}
+
+	&_short-info {
+		padding     : 10px 0;
+
+		line-height : 1.3;
+		text-align  : justify;
+		text-indent : 25px;
+	}
+}

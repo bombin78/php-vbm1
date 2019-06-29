@@ -1,32 +1,25 @@
-$mainBlock  : '.contacts';
-$info       : '.basic-info';
-$map        : '.location-map';
-$managers   : '.top-managers';
-$details    : '.company-details';
-//----------------------------------------
-
-#{$mainBlock} {
+.contacts {
 	@include main-content();
-	//&_basic#{$info} {}
-	//&_company#{$details} {}
 }
 
-#{$info} {
+.basic-info {
 	display : inline-block;
+
 	&_title {
 		margin-top  : 5px;
 
 		font-size   : $fontSize + 2px;
 		font-weight : bold;
 	}
-	&_location#{$map},
-	&_top#{$managers} {
+
+	&_location.location-map,
+	&_top.top-managers {
 		float      : left;
 		margin-top : 15px;
 	}
 }
 
-#{$map} {
+.location-map {
 	width : 413px;
 	&_text {
 	}
@@ -39,32 +32,37 @@ $details    : '.company-details';
 	}
 }
 
-#{$managers} {
+.top-managers {
 	width : 206px;
+
 	&_block {
 		margin-top : 20px;
+
 		&:first-child {
 			margin-top : 22px;
 		}
-		#{$managers}_mail {
-			color : $darkBlue;
-			&:hover {
-				text-decoration : underline;
-			}
+	}
+
+	&_mail {
+		color : $darkBlue;
+		&:hover {
+			text-decoration : underline;
 		}
 	}
 }
 
-#{$details} {
+.company-details {
 	margin-top : 20px;
 
 	border-top: 1px solid $middleGray;
+
 	&_title {
 		margin-top : 5px;
 
 		font-size   : $fontSize + 2px;
 		font-weight : bold;
 	}
+
 	&_info {
 		margin-top  : 8px;
 		line-height : 1.5;

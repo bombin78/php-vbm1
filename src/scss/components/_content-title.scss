@@ -1,10 +1,4 @@
-//@import "mixins/mixins";
-//----------------------------------------
-
-$mainBlock : '.content-title';
-//----------------------------------------
-
-#{$mainBlock} {
+.content-title {
 	border-bottom  : 2px solid $yellow;
 	padding-bottom : 10px;
 

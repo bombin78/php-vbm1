@@ -1,10 +1,4 @@
-//@import "mixins/mixins";
-//----------------------------------------
-
-$mainBlock : '.table-photo';
-//----------------------------------------
-
-#{$mainBlock} {
+.table-photo {
 	width : 100%;
 	&_row {
 	}

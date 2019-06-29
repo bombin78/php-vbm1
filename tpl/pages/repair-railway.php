@@ -1,6 +1,6 @@
 <section class="repair-railway">
 
-	<h2 class="repair-railway_content-title content-title">Ремонт ж.д.техники: МС , АВФ, АДМ, ж.д.кранов</h2>
+	<h2 class="repair-railway_content-title content-title">Ремонт ж.д.техники: МС, АВФ, АДМ, ж.д.кранов</h2>
 
 	<ul class="repair-list">
 		<li class="repair-list_item">

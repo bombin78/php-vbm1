@@ -1,30 +1,36 @@
 [
     {
+        "id": 10,
         "url":"index.php?page=10",
         "name":"Ремонт автомотрис и мотовозов АДМ, МПТ, ДГКУ",
         "alias":"remont-ssps"
     },
     {
+        "id": 11,
         "url":"index.php?page=11",
         "name":"Ремонт ж.д.кранов КЖ, КЖС, КЖДЭ",
         "alias":"remont-zdkranov"
     },
     {
+        "id": 12,
         "url":"index.php?page=12",
         "name":"Ремонт агрегатов для вибропогружения фундаментов АВФ, МС",
         "alias":"remont-agregatov"
     },
     {
+        "id": 13,
         "url":"index.php?page=13",
         "name":"Ремонт двигателей ЯМЗ и их модификаций",
         "alias":"remont-dvigateley"
     },
     {
+        "id": 14,
         "url":"index.php?page=14",
         "name":"Ремонт гидропередач УГП, ГМПМ, ГП и их модификаций",
         "alias":"remont-gidroperedach"
     },
     {
+        "id": 15,
         "url":"index.php?page=15",
         "name":"Продажа б/у железнодорожной техники",
         "alias":"sale-railway-equipment"

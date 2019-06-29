@@ -18,8 +18,8 @@
 				<tbody>
 				<tr class="table-photo_row">
 					<td class="table-photo_cell">
-						<a class="table-photo_cell-link" href="<?php echo $abs_address; ?>images/sale_equipment/big/kran_562.jpg" title="Кран КЖ-562 № 162">
-							<img class="table-photo_cell-img" alt="Кран КЖ-562 № 162" src="<?php echo $abs_address; ?>images/sale_equipment/kran_562.jpg">
+						<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/sale_equipment/big/kran_562.jpg" title="Кран КЖ-562 № 162">
+							<img class="table-photo_cell-img" alt="Кран КЖ-562 № 162" src="<?php echo $absAddress; ?>images/sale_equipment/kran_562.jpg">
 						</a>
 					</td>
 				</tr>

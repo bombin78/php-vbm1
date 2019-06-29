@@ -33,13 +33,13 @@
 	<table id="links" class="about-company_table-photo table-photo">
 		<tr class="table-photo_row">
 			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $abs_address; ?>images/about_company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
-					<img class="table-photo_cell-img" src="<?php echo $abs_address; ?>images/about_company/adm.JPG" alt="после ремонта - автомотриса АДМ">
+				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
+					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/adm.JPG" alt="после ремонта - автомотриса АДМ">
 				</a>
 			</td>
 			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $abs_address; ?>images/about_company/big/mpt.JPG" title="После ремонта - автомотриса МПТ">
-					<img class="table-photo_cell-img" src="<?php echo $abs_address; ?>images/about_company/mpt.JPG" alt="После ремонта - автомотриса МПТ">
+				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/mpt.JPG" title="После ремонта - автомотриса МПТ">
+					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/mpt.JPG" alt="После ремонта - автомотриса МПТ">
 				</a>
 			</td>
 		</tr>

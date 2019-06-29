@@ -17,13 +17,13 @@
 				<tbody>
 				<tr class="table-photo_row">
 					<td class="table-photo_cell">
-						<a class="table-photo_cell-link" href="<?php echo $abs_address; ?>images/repair-railwaycrane/big/kzs_1.jpg" title="Кран КЖС16 № 71 - фото 1">
-							<img class="table-photo_cell-img" alt="1. Кран КЖС16 № 71" src="<?php echo $abs_address; ?>images/repair-railwaycrane/kzs_1.jpg">
+						<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/repair-railwaycrane/big/kzs_1.jpg" title="Кран КЖС16 № 71 - фото 1">
+							<img class="table-photo_cell-img" alt="1. Кран КЖС16 № 71" src="<?php echo $absAddress; ?>images/repair-railwaycrane/kzs_1.jpg">
 						</a>
 					</td>
 					<td class="table-photo_cell">
-						<a class="table-photo_cell-link" href="<?php echo $abs_address; ?>images/repair-railwaycrane/big/kzs_2.jpg" title="Кран КЖС16 № 71 - фото 2">
-							<img class="table-photo_cell-img" alt="2. Кран КЖС16 № 71" src="<?php echo $abs_address; ?>images/repair-railwaycrane/kzs_2.jpg">
+						<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/repair-railwaycrane/big/kzs_2.jpg" title="Кран КЖС16 № 71 - фото 2">
+							<img class="table-photo_cell-img" alt="2. Кран КЖС16 № 71" src="<?php echo $absAddress; ?>images/repair-railwaycrane/kzs_2.jpg">
 						</a>
 					</td>
 				</tr>

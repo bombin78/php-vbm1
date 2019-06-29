@@ -1,20 +1,24 @@
 [
     {
+        "id": 1,
         "url":"index.php?page=1",
         "name":"Главная",
         "alias":"glavnaya"
     },
     {
+        "id": 2,
         "url":"index.php?page=2",
         "name":"О компании",
         "alias":"o-kompanii"
     },
     {
+        "id": 3,
         "url":"index.php?page=3",
         "name":"Документы",
         "alias":"documenty"
     },
     {
+        "id": 4,
         "url":"index.php?page=4",
         "name":"Контакты",
         "alias":"kontakty"

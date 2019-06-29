@@ -3,7 +3,7 @@
 		<div class="header_block-control control-panel">
 			<a class="control-panel_logo" href="o-kompanii"><b><?php echo $nameCompany; ?></b></a>
 			<!-- главное меню -->
-			<?php include_once "blocks/menu.php" ?>
+			<?php include_once "tpl/blocks/menu/menu.php" ?>
 			<!-- /главное меню -->
 		</div>
 	</div>

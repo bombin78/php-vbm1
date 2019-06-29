@@ -1,9 +1,6 @@
-$mainBlock: '.about-company';
-//----------------------------------------
-
-#{$mainBlock} {
+.about-company {
 	@include main-content();
-	//&_content-title.content-title {}
+
 	&_text {
 		padding     : 10px 0;
 
@@ -11,5 +8,22 @@ $mainBlock: '.about-company';
 		text-align  : justify;
 		text-indent : 25px;
 	}
-	//&_table-photo.table-photo {}
+
+	.dtl {
+
+		&_list {
+			padding-left: 25px;
+		}
+
+		&_item {
+			position: relative;
+			margin-top: 5px;
+			&:before {
+				content: '-';
+				position: absolute;
+				top: 0;
+				left: -12px;
+			}
+		}
+	}
 }

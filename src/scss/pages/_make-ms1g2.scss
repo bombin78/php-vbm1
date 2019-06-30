@@ -1,3 +1,16 @@
 .make-ms1g2 {
 	@include main-content();
+
+	&_title {
+		margin-top : 10px;
+		font-size : $fontSize + 2px;
+	}
+
+	&_text {
+		padding     : 10px 0;
+
+		line-height : 1.3;
+		text-align  : justify;
+		text-indent : 25px;
+	}
 }

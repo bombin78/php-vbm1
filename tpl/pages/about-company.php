@@ -41,17 +41,33 @@
 		</dd>
 	</dl>
 
+	<table id="links" class="about-company_photo-ms1g_1 table-photo">
+		<tr class="table-photo_row">
+			<td class="table-photo_cell">
+				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g_1.jpg" title="Машина МС-1г - испытание">
+					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g_1.jpg" alt="Машина МС-1г - испытание">
+				</a>
+			</td>
+			<td class="table-photo_cell">
+				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+				</a>
+			</td>
+		</tr>
+	</table>
+
 	<p class="about-company_text">
 		Наша фирма осуществляет все виды ремонтов железно-дорожной техники – машин для
 		вибропогружения свай и свайных фундаментов опор контактной сети (АВФ-1; АВФ-1М.2;
 		МС-1; МС-1м) и рабочих органов к ним, сменного оборудования к машинам МС,
 		а также дрезин АДМ и ж. д. кранов .
 	</p>
-	<table id="links" class="about-company_table-photo table-photo">
+
+	<table id="links" class="about-company_photo-adm-mpt table-photo">
 		<tr class="table-photo_row">
 			<td class="table-photo_cell">
 				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
-					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/adm.JPG" alt="после ремонта - автомотриса АДМ">
+					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/adm.JPG" alt="После ремонта - автомотриса АДМ">
 				</a>
 			</td>
 			<td class="table-photo_cell">
@@ -61,12 +77,15 @@
 			</td>
 		</tr>
 	</table>
+
 	<p class="about-company_text">
 		Наши машины и оборудование успешно работают на железных дорогах России и во многих
 		строительных организациях, занимающихся работами по ремонту сетей энергоснабжения и
 		электрификации железных дорогах.
 	</p>
+
 	<p class="about-company_text">
 		Цена на нашу продукцию договорная.
 	</p>
+
 </section>

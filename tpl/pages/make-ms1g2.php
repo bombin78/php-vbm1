@@ -9,7 +9,7 @@
 		<tr class="table-photo_row">
 			<td class="table-photo_cell">
 				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/make-ms1g2/big/ms1g2.jpg" title="Машина МС-1Г.2">
-					<img class="table-photo_cell-img" alt="Кран КЖ-562 № 162" src="<?php echo $absAddress; ?>images/make-ms1g2/ms1g2.jpg">
+					<img class="table-photo_cell-img" alt="Машина МС-1Г.2" src="<?php echo $absAddress; ?>images/make-ms1g2/ms1g2.jpg">
 				</a>
 			</td>
 		</tr>

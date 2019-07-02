@@ -2,15 +2,13 @@
 	@include main-content();
 
 	&_text {
-		padding     : 10px 0;
-
-		line-height : 1.3;
-		text-align  : justify;
-		text-indent : 25px;
+		padding: 10px 0;
+		line-height: 1.3;
+		text-align: justify;
+		text-indent: 25px;
 	}
 
 	.dtl {
-
 		&_list {
 			padding-left: 25px;
 		}
@@ -18,11 +16,29 @@
 		&_item {
 			position: relative;
 			margin-top: 5px;
+
 			&:before {
 				content: '-';
 				position: absolute;
 				top: 0;
 				left: -12px;
+			}
+		}
+	}
+
+	&_photo-ms1g_1.table-photo {
+
+		.table-photo_cell:nth-of-type(1) {
+			width: 70.35%;
+			.table-photo_cell-link {
+				margin-left: 37px;
+			}
+		}
+
+		.table-photo_cell:nth-of-type(2) {
+			width: 29.65%;
+			.table-photo_cell-link {
+				margin-left: 7px;
 			}
 		}
 	}

@@ -48,4 +48,149 @@
 		а также гидравлическая, электрическая и тормозная (для самоходного варианта) системы.
 	</p>
 
+	<table class="make-ms1g2_table-description table-description">
+		<caption class="table-description_caption">
+			Технические характеристики машины
+		</caption>
+		<thead class="table-description_head">
+		<tr class="table-description_head-row">
+			<td class="table-description_head-question">Наименование показателей</td>
+			<td class="table-description_head-answer">Значение</td>
+		</tr>
+		</thead>
+		<tbody class="table-description_body">
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Транспортный габарит
+			</td>
+			<td class="table-description_body-value">
+				«1Т» по ГОСТ9238
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				База машины
+			</td>
+			<td class="table-description_body-value">
+				ж. д. платформа модели 13-2116
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Масса погружаемого элемента, не более, т
+			</td>
+			<td class="table-description_body-value">
+				2,7
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Размеры поперечного сечения погружаемой сваи, м
+			</td>
+			<td class="table-description_body-value">
+				0,35 х 0,35
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Длина погружаемого фундамента, не более, м
+			</td>
+			<td class="table-description_body-value">
+				5,0
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Длина погружаемой сваи, не более, м
+			</td>
+			<td class="table-description_body-value">
+				8,0
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				<b>Глубина погружения от уровня головки рельсов,<br> не более, м:</b><br>
+				- вайных фундаментов<br>
+				- свай
+			</td>
+			<td class="table-description_body-value">
+				<br><br>6,15<br>9,15<br>
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Расстояние от оси железнодорожного пути до оси погружаемых элементов, м
+			</td>
+			<td class="table-description_body-value">
+				2,75-5,95
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Время выполнения одного цикла погружения, не более, мин
+			</td>
+			<td class="table-description_body-value">
+				25,0
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Скорость передвижения машины в составе грузового поезда, не более, км/ч
+			</td>
+			<td class="table-description_body-value">
+				80
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Скорость передвижения машины самоходом, не более, км/ч
+			</td>
+			<td class="table-description_body-value">
+				7,0
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Обслуживающий персонал, чел
+			</td>
+			<td class="table-description_body-value">
+				2
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				<b>Силовая установка:</b><br>
+				- тип силовой установки<br>
+				- модель<br>
+				- мощность двигателя, кВт<br>
+				- частота вращения коленвала двигателя, 1/мин<br>
+				- расход топлива, кг/ч, не более
+			</td>
+			<td class="table-description_body-value">
+				<br>дизельный привод<br>
+				ПД-200-33<br>
+				180<br>
+				1500<br>
+				40
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				<b>Грузоподъемное оборудование:</b><br>
+				- кран-манипулятор<br>
+				- грузовой момент, т*м<br>
+				- грузоподъемность на наибольшем вылете, кг<br>
+				- максимальная грузоподъемность, кг
+			</td>
+			<td class="table-description_body-value">
+				<br>ИНМАН ИМ320-05<br>
+				28,8<br>
+				14<br>
+				1790<br>
+				6700
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
 </section>

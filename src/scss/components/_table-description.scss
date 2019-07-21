@@ -20,14 +20,16 @@ $borderTable : 1px solid $black;
         font-size     : $fontSize + 2px;
         text-align    : center;
     }
+
     &_head {
         background  : $middleGray;
-        font-weight : bold;
     }
 
     &_head-question,
     &_head-answer {
         @include border-cell(5px 10px);
+
+        font-weight : bold;
     }
 
 

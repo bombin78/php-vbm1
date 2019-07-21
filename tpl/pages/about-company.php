@@ -1,7 +1,7 @@
 <section class="about-company">
 	<h2 class="about-company_content-title content-title">О компании</h2>
 	<p class="about-company_text">
-		ООО"ВИБРОБУРМАШ" рада приветствовать Вас на своем официальном сайте.
+		ООО "ВИБРОБУРМАШ" рада приветствовать Вас на своем официальном сайте.
 	</p>
 	<p class="about-company_text">
 		Наша фирма занимается разработкой, изготовлением и ремонтом специальных машин

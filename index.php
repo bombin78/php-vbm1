@@ -60,7 +60,7 @@ include_once("connect/connect.php");
 <input id='abs_address' type='hidden' value='<?php echo $absAddress; ?>'><!-- for gallery-master -->
 <script src="vendors/gallery-master/js/jquery.blueimp-gallery.min.js"></script>
 <script>
-	$('#links').on('click', function (event) {
+	$('.blueimp-links').on('click', function (event) {
 		event = event || window.event;
 		var target = event.target || event.srcElement,
 			link = target.src ? target.parentNode : target,

@@ -41,16 +41,16 @@
 		</dd>
 	</dl>
 
-	<table id="links" class="about-company_photo-ms1g_1 table-photo">
+	<table class="about-company_photo-ms1g2_1 table-photo blueimp-links">
 		<tr class="table-photo_row">
 			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g_1.jpg" title="Машина МС-1г - испытание">
-					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g_1.jpg" alt="Машина МС-1г - испытание">
+				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g2_1.jpg" title="Машина МС-1Г.2 - испытание">
+					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g2_1.jpg" alt="Машина МС-1Г.2 - испытание">
 				</a>
 			</td>
 			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
-					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g2_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g2_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
 				</a>
 			</td>
 		</tr>
@@ -63,7 +63,7 @@
 		а также дрезин АДМ и ж. д. кранов .
 	</p>
 
-	<table id="links" class="about-company_photo-adm-mpt table-photo">
+	<table class="about-company_photo-adm-mpt table-photo blueimp-links">
 		<tr class="table-photo_row">
 			<td class="table-photo_cell">
 				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/adm.JPG" title="После ремонта - автомотриса АДМ">

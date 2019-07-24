@@ -3,10 +3,11 @@
 }
 
 .sale-list{
-	margin-top : 10px;
+	margin-top : 20px;
 
 	&_title {
 		font-size : $fontSize + 2px;
+		font-weight: bold;
 	}
 
 	&_short-info {

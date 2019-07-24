@@ -1,6 +1,6 @@
 <section class="documents">
 	<h2 class="documents_content-title content-title">Документы</h2>
-	<!-- <ul id="links" class="documents_documents-review documents-review">
+	<!-- <ul class="documents_documents-review documents-review blueimp-links">
 		<li class="documents-review_list">
 			<h3 class="documents-review_title">1. Сертификаты соответствия ГОСТ ISO 9001-2011/2015.</h3>
 			<ul class="documents-review_list document-pages">

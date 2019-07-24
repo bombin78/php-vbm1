@@ -19,7 +19,7 @@
 				После ремонта приобретен компанией ОАО "ТРАНСЭЛЕКТРОМОНТАЖ".
 			</p>
 
-			<table id="links" class="repair-list_table-photo table-photo">
+			<table class="repair-list_table-photo table-photo blueimp-links">
 				<tbody>
 				<tr class="table-photo_row">
 					<td class="table-photo_cell">

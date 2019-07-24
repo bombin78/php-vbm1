@@ -20,7 +20,7 @@
 				Цена: 9 000 тыс.руб.
 			</p>
 
-			<table id="links" class="sale-list_table-photo table-photo">
+			<table class="sale-list_table-photo table-photo blueimp-links">
 				<tbody>
 				<tr class="table-photo_row">
 					<td class="table-photo_cell">

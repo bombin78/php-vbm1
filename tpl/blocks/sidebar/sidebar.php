@@ -6,17 +6,17 @@ function getSidebar($absAddress, $activeItem, $linkParam){
 	$menuLength = count($menuParams);
 
 	echo "<aside class='sidebar-container'>";
-	echo "<div class='sidebar-container_block sidebar'>";
-	echo "<h2 class = 'sidebar_title'>Разделы</h2>";
-	echo "<ul class = 'sidebar_sidebar-menu sidebar-menu'>";
+	echo "<div class='sidebar-container__block sidebar'>";
+	echo "<h2 class = 'sidebar__title'>Разделы</h2>";
+	echo "<ul class = 'sidebar__sidebar-menu sidebar-menu'>";
 
 	for ($i = 0; $i < $menuLength; $i++) {
 
 		$cssClassActive = ($menuParams[$i]['id'] == $activeItem) ? " _active" : "";
 
-		echo "<li class = 'sidebar-menu_item'>";
-		echo "<div class = 'sidebar-menu_block-link'>";
-		echo "<a class='sidebar-menu_link" . $cssClassActive . "' href = '" . $absAddress . $menuParams[$i][$linkParam] . "'>";
+		echo "<li class = 'sidebar-menu__item'>";
+		echo "<div class = 'sidebar-menu__block-link'>";
+		echo "<a class='sidebar-menu__link" . $cssClassActive . "' href = '" . $absAddress . $menuParams[$i][$linkParam] . "'>";
 		echo $menuParams[$i]['name'];
 		echo "</a>";
 		echo "</div>";

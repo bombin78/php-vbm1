@@ -5,11 +5,10 @@ else ie = 0;
 
 if (ie > 0) {
 	jQuery(function ($) {
-		// здесь код скрипта, где в $ будет находиться объект,
-		// предоставляющий доступ к функциям jQuery
+
 		$("html").css('overflow', 'hidden');
 
-		$("<div class = 'IE_" + ie + "'>")
+		$("<div class = 'IE-" + ie + "'>")
 			.css({
 				'position': 'absolute',
 				'top': '0px',

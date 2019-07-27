@@ -1,24 +1,24 @@
 // 1. Модуль главного меню
 ;(function() {
 	var scrolledY = 0,
-		topMenu = $('.header_block').offset().top;
+		topMenu = $('.header__block').offset().top;
 
 	toggleFixedMenu();
-	scrollX('.header_block');
+	scrollX('.header__block');
 
 	$(window).on('scroll', function () {
 		toggleFixedMenu();
-		scrollX('.header_block');
+		scrollX('.header__block');
 	});
 
 	function toggleFixedMenu() {
 		scrolledY = $(window).scrollTop();
 
-		if (scrolledY >= topMenu && !$('.header_block').hasClass('_fixed')) {
-			$('.header_block').addClass('_fixed');
+		if (scrolledY >= topMenu && !$('.header__block').hasClass('_fixed')) {
+			$('.header__block').addClass('_fixed');
 		}
-		else if (scrolledY < topMenu && $('.header_block').hasClass('_fixed')) {
-			$('.header_block').removeClass('_fixed');
+		else if (scrolledY < topMenu && $('.header__block').hasClass('_fixed')) {
+			$('.header__block').removeClass('_fixed');
 		}
 	}
 }());
@@ -27,7 +27,7 @@
 // 2. Модуль боковой панели
 (function() {
 	var scrolledY = 0,
-		heightMenu = $('.header_block').outerHeight(true),
+		heightMenu = $('.header__block').outerHeight(true),
 		heightSidebar = $('.sidebar').outerHeight(),
 		topSidebar = $('.sidebar ').offset().top,
 		minTopSidebar = topSidebar - heightMenu - 10,
@@ -36,7 +36,7 @@
 
 	$(window).on('load', function () {
 		scrolledY = $(window).scrollTop();
-		maxTopSidebar = $('.content-container_block > section').height() - heightMenu;
+		maxTopSidebar = $('.content-container__block > section').height() - heightMenu;
 
 		toggleFixedSidebar();
 		scrollX('.sidebar');

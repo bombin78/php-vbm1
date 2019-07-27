@@ -1,4 +1,4 @@
-.header_block {
+.header__block {
 	background : #081f3e;
 	filter     : alpha(opacity=80);
 	&._fixed {
@@ -6,6 +6,6 @@
 	}
 }
 
-.main_slider.theme-bar {
+.main__slider.theme-bar {
 	filter : progid:DXImageTransform.Microsoft.shadow(direction=120, color=#666666, strength=5);
 }

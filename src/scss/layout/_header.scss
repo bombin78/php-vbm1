@@ -1,8 +1,4 @@
-$mainBlock  : '.header';
-$panel      : '.control-panel';
-//----------------------------------------
-
-#{$mainBlock} {
+.header {
 	background : url('../../images/oblaka.png') repeat-x;
 	height     : 100%;
 	margin     : 0 auto;
@@ -19,7 +15,7 @@ $panel      : '.control-panel';
 		background  : url('../../images/fon_head.png') no-repeat;
 	}
 
-	#{$mainBlock}_block {
+	&__block {
 		position   : absolute;
 		left       : 0;
 		top        : 40px;
@@ -28,7 +24,7 @@ $panel      : '.control-panel';
 		z-index    : 10;
 
 		background-color: rgba(8, 35, 68, 0.8);
-		//#{$mainBlock}_block-control#{$panel} {}
+
 		&._fixed {
 			position : fixed;
 			top      : 0;
@@ -40,12 +36,13 @@ $panel      : '.control-panel';
 	}
 }
 
-#{$panel} {
+.control-panel {
 	position : relative;
 	margin   : 0 auto;
 	height   : 100%;
 	width    : 940px;
-	&_logo {
+
+	&__logo {
 		display        : block;
 		position       : absolute;
 		top            : 11px;
@@ -55,6 +52,7 @@ $panel      : '.control-panel';
 		font-weight    : bold;
 		font-size      : $fontSize + 6px;
 		text-shadow    : $textShadowDark;
+
 		&:hover {
 			color : $orange;
 		}

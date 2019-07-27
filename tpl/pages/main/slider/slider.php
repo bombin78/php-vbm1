@@ -5,7 +5,7 @@ function getSliderForMain($absAddress){
 	$sliderParams = json_decode(file_get_contents($absAddress.'/tpl/pages/main/slider/slider.json'),true);
 	$sliderLength = count($sliderParams);
 
-	echo "<div class = 'main_slider theme-bar'>";
+	echo "<div class = 'main__slider theme-bar'>";
 	echo "<div id = 'slider' class='nivo-slider'>";
 
 	for ($i = 0; $i < $sliderLength; $i++) {

@@ -146,7 +146,7 @@ Supports Thumbs: false
 
 .theme-bar .nivo-slider {
 	position   : relative;
-	background : #ffffff url(../../nivo_slider/images/loading.gif) no-repeat 50% 50%;
+	background : #ffffff url(../../vendors/nivo-slider/images/loading.gif) no-repeat 50% 50%;
 
 }
 
@@ -196,7 +196,7 @@ Supports Thumbs: false
 	display     : inline-block;
 	width       : 22px;
 	height      : 22px;
-	background  : url(../../nivo_slider/images/bullets.png) no-repeat;
+	background  : url(../../vendors/nivo-slider/images/bullets.png) no-repeat;
 	text-indent : -9999px;
 	border      : 0;
 	margin      : 5px 2px 0 2px;

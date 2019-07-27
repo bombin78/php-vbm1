@@ -35,7 +35,7 @@ include_once("connect/connect.php");
 		<!-- /шапка сайта -->
 	</div>
 	<div class="content-container">
-		<div class="content-container_block">
+		<div class="content-container__block">
 			<!-- боковая панель -->
 			<?php include_once "tpl/blocks/sidebar/sidebar.php" ?>
 			<!-- /боковая панель -->
@@ -45,7 +45,7 @@ include_once("connect/connect.php");
 		</div>
 	</div>
 	<div class="footer-container">
-		<div class="footer-container_block">
+		<div class="footer-container__block">
 			<!-- подвал сайта-->
 			<?php include_once "tpl/blocks/footer.php" ?>
 			<!-- /подвал сайта-->

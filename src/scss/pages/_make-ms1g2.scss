@@ -1,17 +1,17 @@
 .make-ms1g2 {
 	@include main-content();
 
-	&_title {
+	&__title {
 		margin-top : 20px;
 		font-size : $fontSize + 2px;
 		font-weight: bold;
 	}
 
-	&_table-photo:nth-of-type(1){
+	&__table-photo:nth-of-type(1){
 		margin-top : 15px;
 	}
 
-	&_text {
+	&__text {
 		padding     : 10px 0;
 
 		line-height : 1.3;

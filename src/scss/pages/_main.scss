@@ -1,7 +1,7 @@
 .main {
 	@include main-content();
 
-	&_slider.theme-bar {
+	&__slider.theme-bar {
 		margin : 25px auto;
 		width  : 500px;
 		height : auto;

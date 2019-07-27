@@ -14,30 +14,30 @@ $borderTable : 1px solid $black;
     border         : $borderTable;
     border-spacing : 0;
 
-    &_caption {
+    &__caption {
         margin-bottom : 5px;
 
         font-size     : $fontSize + 2px;
         text-align    : center;
     }
 
-    &_head {
+    &__head {
         background  : $middleGray;
     }
 
-    &_head-question,
-    &_head-answer {
+    &__head-question,
+    &__head-answer {
         @include border-cell(5px 10px);
 
         font-weight : bold;
     }
 
 
-    &_body-label,
-    &_body-value {
+    &__body-label,
+    &__body-value {
         @include border-cell(5px 10px);
     }
-	&_foot-call {
+	&__foot-call {
 		@include border-cell(5px 10px);
 
         color: $darkerGray;

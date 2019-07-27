@@ -1,11 +1,11 @@
 .table-photo {
 	width : 100%;
-	&_row {
+	&__row {
 	}
-	&_cell {
+	&__cell {
 		width      : 50%;
 	}
-	&_cell-link {
+	&__cell-link {
 		display : block;
 		margin  : 10px auto;
 		width   : 75%;
@@ -15,7 +15,7 @@
 			outline : 2px solid $yellow;
 		}
 	}
-	&_cell-img {
+	&__cell-img {
 		width          : 100%;
 
 		vertical-align : bottom;

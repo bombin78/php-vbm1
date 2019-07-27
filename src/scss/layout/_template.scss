@@ -59,7 +59,8 @@ article, aside, footer, header, nav, section {
 	height     : 100%;
 
 	text-align : center;
-	&_block {
+	
+	&__block {
 		display    : inline-block;
 		height     : 100%;
 
@@ -71,7 +72,8 @@ article, aside, footer, header, nav, section {
 	width      : 100%;
 
 	background : $darkBlue;
-	&_block {
+
+	&__block {
 		margin : 0 auto;
 		width  : 940px;
 	}

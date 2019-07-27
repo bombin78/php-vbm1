@@ -1,9 +1,12 @@
 <section class="about-company">
-	<h2 class="about-company_content-title content-title">О компании</h2>
-	<p class="about-company_text">
+
+	<h2 class="about-company__content-title content-title">О компании</h2>
+
+	<p class="about-company__text">
 		ООО "ВИБРОБУРМАШ" рада приветствовать Вас на своем официальном сайте.
 	</p>
-	<p class="about-company_text">
+	
+	<p class="about-company__text">
 		Наша фирма занимается разработкой, изготовлением и ремонтом специальных машин
 		на железнодорожном ходу и сменным навесным  оборудованием  к ним.
 		Мы изготавливаем машины  на автомобильном ходу, предназначенных для строительства
@@ -12,28 +15,28 @@
 		услуг по аренде, продаже б/у железнодорожной техники .
 	</p>
 
-	<dl class="about-company_dtl dtl">
-		<dt class="dtl_l">Мы готовы предложить новые разработки фирмы:</dt>
-		<dd class="dtl_v">
-			<ul class="dtl_list">
-				<li class="dtl_item">
+	<dl class="about-company__dtl dtl">
+		<dt class="dtl__l">Мы готовы предложить новые разработки фирмы:</dt>
+		<dd class="dtl__v">
+			<ul class="dtl__list">
+				<li class="dtl__item">
 					машину МС-1г.2 для вибропогружения свай и свайных фундаментов опор
 					контактной сети;
 				</li>
-				<li class="dtl_item">
+				<li class="dtl__item">
 					машину МВС-1 для вибропогружения свайных фундаментов опор контактной
 					сети и свай на базе автомобиля "УРАЛ-4320-1968-40";
 				</li>
-				<li class="dtl_item">
+				<li class="dtl__item">
 					краноманипуляторную установку на платформе 13-4012;
 				</li>
-				<li class="dtl_item">
+				<li class="dtl__item">
 					бурильное оборудование к машинам МС;
 				</li>
-				<li class="dtl_item">
+				<li class="dtl__item">
 					пневмоударное буровое оборудование к машинам МС;
 				</li>
-				<li class="dtl_item">
+				<li class="dtl__item">
 					сменное оборудование к машинам МС для установки металлических винтовых
 					свайных фундаментов опор контактной сети.
 				</li>
@@ -41,50 +44,50 @@
 		</dd>
 	</dl>
 
-	<table class="about-company_photo-ms1g2_1 table-photo blueimp-links">
-		<tr class="table-photo_row">
-			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g2_1.jpg" title="Машина МС-1Г.2 - испытание">
-					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g2_1.jpg" alt="Машина МС-1Г.2 - испытание">
+	<table class="about-company__photo-ms1g2-1 table-photo blueimp-links">
+		<tr class="table-photo__row">
+			<td class="table-photo__cell">
+				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/ms1g2_1.jpg" title="Машина МС-1Г.2 - испытание">
+					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/ms1g2_1.jpg" alt="Машина МС-1Г.2 - испытание">
 				</a>
 			</td>
-			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/ms1g2_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
-					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/ms1g2_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+			<td class="table-photo__cell">
+				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/ms1g2_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+					<img class="table-photo__rowcell-img" src="<?php echo $absAddress; ?>images/about-company/ms1g2_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
 				</a>
 			</td>
 		</tr>
 	</table>
 
-	<p class="about-company_text">
+	<p class="about-company__text">
 		Наша фирма осуществляет все виды ремонтов железно-дорожной техники – машин для
 		вибропогружения свай и свайных фундаментов опор контактной сети (АВФ-1; АВФ-1М.2;
 		МС-1; МС-1м) и рабочих органов к ним, сменного оборудования к машинам МС,
 		а также дрезин АДМ и ж. д. кранов .
 	</p>
 
-	<table class="about-company_photo-adm-mpt table-photo blueimp-links">
-		<tr class="table-photo_row">
-			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
-					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/adm.JPG" alt="После ремонта - автомотриса АДМ">
+	<table class="about-company__photo-adm-mpt table-photo blueimp-links">
+		<tr class="table-photo__row">
+			<td class="table-photo__cell">
+				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
+					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/adm.JPG" alt="После ремонта - автомотриса АДМ">
 				</a>
 			</td>
-			<td class="table-photo_cell">
-				<a class="table-photo_cell-link" href="<?php echo $absAddress; ?>images/about_company/big/mpt.JPG" title="После ремонта - автомотриса МПТ">
-					<img class="table-photo_cell-img" src="<?php echo $absAddress; ?>images/about_company/mpt.JPG" alt="После ремонта - автомотриса МПТ">
+			<td class="table-photo__cell">
+				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/mpt.JPG" title="После ремонта - автомотриса МПТ">
+					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/mpt.JPG" alt="После ремонта - автомотриса МПТ">
 				</a>
 			</td>
 		</tr>
 	</table>
 
-	<p class="about-company_text">
+	<p class="about-company__text">
 		Наши машины и оборудование успешно работают на железных дорогах России и во многих
 		строительных организациях, занимающихся работами по ремонту сетей энергоснабжения и
 		электрификации железных дорогах.
 	</p>
 
-	<p class="about-company_text">
+	<p class="about-company__text">
 		Цена на нашу продукцию договорная.
 	</p>
 

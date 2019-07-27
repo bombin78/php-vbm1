@@ -5,15 +5,15 @@
 .basic-info {
 	display : inline-block;
 
-	&_title {
+	&__title {
 		margin-top  : 5px;
 
 		font-size   : $fontSize + 2px;
 		font-weight : bold;
 	}
 
-	&_location.location-map,
-	&_top.top-managers {
+	&__location.location-map,
+	&__top.top-managers {
 		float      : left;
 		margin-top : 15px;
 	}
@@ -21,9 +21,9 @@
 
 .location-map {
 	width : 413px;
-	&_text {
+	&__text {
 	}
-	&_img {
+	&__img {
 		margin-top : 5px;
 		height     : 270px;
 		width      : 385px;
@@ -35,7 +35,7 @@
 .top-managers {
 	width : 206px;
 
-	&_block {
+	&__block {
 		margin-top : 20px;
 
 		&:first-child {
@@ -43,7 +43,7 @@
 		}
 	}
 
-	&_mail {
+	&__mail {
 		color : $darkBlue;
 		&:hover {
 			text-decoration : underline;
@@ -56,14 +56,14 @@
 
 	border-top: 1px solid $middleGray;
 
-	&_title {
+	&__title {
 		margin-top : 5px;
 
 		font-size   : $fontSize + 2px;
 		font-weight : bold;
 	}
 
-	&_info {
+	&__info {
 		margin-top  : 8px;
 		line-height : 1.5;
 	}

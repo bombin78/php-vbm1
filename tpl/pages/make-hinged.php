@@ -1,5 +1,5 @@
 <section class="make-hinged">
-	
+
 	<h2 class="make-hinged_content-title content-title">Изготовление навесного оборудования</h2>
 
 	<h3 class="make-hinged_title">Дополнительное оборудование к машинам МС</h3>
@@ -41,6 +41,93 @@
 		</p>
 
 	</div>
+
+	<table class="make-hinged_table-description table-description">
+		<caption class="table-description_caption">
+			Техническая характеристика бурового оборудования
+		</caption>
+		<thead class="table-description_head">
+		<tr class="table-description_head-row">
+			<td class="table-description_head-question">Наименование показателей</td>
+			<td class="table-description_head-answer">Значение</td>
+		</tr>
+		</thead>
+		<tbody class="table-description_body">
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Диаметр скважины, мм
+			</td>
+			<td class="table-description_body-value">
+				350+6
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Глубина скважины, от УГР на вылете 3,1 м, не более, м
+			</td>
+			<td class="table-description_body-value">
+				4.5 - 5.4
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Усилия подачи, кН(mc), не более
+			</td>
+			<td class="table-description_body-value">
+				60(6)
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Наибольший крутящийся момент, н*м (кгс*м)
+			</td>
+			<td class="table-description_body-value">
+				7400(740)
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Частота вращения инструмента при частоте вращения<br>
+				коленчатого вала двигателя привода 1500 1/мин
+			</td>
+			<td class="table-description_body-value">
+				125+5
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Потребляемая мощность, кВт, не более
+			</td>
+			<td class="table-description_body-value">
+				110 (90) *
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Время бурения одной скважины глубиной 5 м от УГР<br>
+				в талых грунтах II группы по СНиП, не более
+			</td>
+			<td class="table-description_body-value">
+				5
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Масса, кг, не более
+			</td>
+			<td class="table-description_body-value">
+				1200
+			</td>
+		</tr>
+		</tbody>
+		<tfoot>
+			<tr class="table-description_foot-row">
+				<td class="table-description_foot-call" colspan="2">
+					* Значение для машины МС-1
+				</td>
+			</tr>
+		</tfoot>
+	</table>
 
 	<h4 class="make-hinged_subtitle">2. Пневмоударное оборудование для бурения скальных грунтов (диам. 400 мм)</h4>
 
@@ -89,6 +176,109 @@
 		</p>
 
 	</div>
+
+	<table class="make-hinged_table-description table-description">
+		<caption class="table-description_caption">
+			Техническая характеристика пневмоударного оборудования
+		</caption>
+		<thead class="table-description_head">
+		<tr class="table-description_head-row">
+			<td class="table-description_head-question">Наименование показателей</td>
+			<td class="table-description_head-answer">Значение</td>
+		</tr>
+		</thead>
+		<tbody class="table-description_body">
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Диаметр скважины, мм
+			</td>
+			<td class="table-description_body-value">
+				400
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Наибольшая глубина скважины, от УГР, м
+			</td>
+			<td class="table-description_body-value">
+				4,3; 4,8*
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Расстояние от оси пути до оси скважины, м
+			</td>
+			<td class="table-description_body-value">
+				2,75…5,95<br><br>3,3…5,95*
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Усилие подачи, кН
+			</td>
+			<td class="table-description_body-value">
+				25+ 2,5
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Наибольший крутящий момент, Нм
+			</td>
+			<td class="table-description_body-value">
+				11000
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Частота вращения при бурении, мин -1
+			</td>
+			<td class="table-description_body-value">
+				35+5
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Расход воздуха, м³/мин
+			</td>
+			<td class="table-description_body-value">
+				45…50
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Давление воздуха, МПа (кгс/см²)
+			</td>
+			<td class="table-description_body-value">
+				1,4…1,6 (14…16)
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Время бурения одной скважины глубиной 3 м от УГР в<br>
+				грунтах 1 группы по СТН ЦЭ 141-99 при расходе воздуха<br>
+				50 м³ /мин, не более, мин
+			</td>
+			<td class="table-description_body-value">
+				20
+			</td>
+		</tr>
+		<tr class="table-description_body-row">
+			<td class="table-description_body-label">
+				Масса оборудования, установленного на направляющей раме машины, кг
+			</td>
+			<td class="table-description_body-value">
+				2030+20<br><br>2380+20*
+			</td>
+		</tr>
+		</tbody>
+		<tfoot>
+			<tr class="table-description_foot-row">
+				<td class="table-description_foot-call" colspan="2">
+					* Значение для машины МС-1
+				</td>
+			</tr>
+		</tfoot>
+	</table>
 
 	<h4 class="make-hinged_subtitle">3. Пневмоударное оборудование для бурения скальных грунтов (диам. 550 мм)</h4>
 

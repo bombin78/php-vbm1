@@ -37,4 +37,10 @@ $borderTable : 1px solid $black;
     &_body-value {
         @include border-cell(5px 10px);
     }
+	&_foot-call {
+		@include border-cell(5px 10px);
+
+        color: $darkerGray;
+        font-size     : $fontSize - 1px;
+	}
 }

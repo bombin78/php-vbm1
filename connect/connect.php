@@ -72,6 +72,11 @@ switch ($page) {
 		$title = "Продажа б/у железнодорожной техники";
 		break;
 
+	case "404":
+		$connect = "tpl/pages/error-404.php";
+		$title = "Ошибка 404";
+		break;
+
 	default:
 		$connect = "tpl/pages/main.php";
 		$activeItem = 1;

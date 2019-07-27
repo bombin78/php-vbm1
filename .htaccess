@@ -13,3 +13,5 @@ RewriteRule ^izgotovlenie-zapasnykh-chastej$ index.php?page=12 [L]
 RewriteRule ^remont-zdtekhniki$ index.php?page=13 [L]
 RewriteRule ^arenda-zdtekhniki$ index.php?page=14 [L]
 RewriteRule ^prodazha-zdtekhniki$ index.php?page=15 [L]
+
+ErrorDocument 404 /index.php?page=404

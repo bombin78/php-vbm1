@@ -53,7 +53,7 @@
 			</td>
 			<td class="table-photo__cell">
 				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/ms1g2_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
-					<img class="table-photo__rowcell-img" src="<?php echo $absAddress; ?>images/about-company/ms1g2_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/ms1g2_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
 				</a>
 			</td>
 		</tr>

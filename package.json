@@ -1,27 +1,38 @@
 {
-  "name": "Vibrostroymashina",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.php",
-  "scripts": {
-    "start": "gulp"
-  },
-  "author": "Alexandr Bombin",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "3.9.1",
-    "gulp-autoprefixer": "3.1.1",
-    "gulp-cache": "^0.4.6",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssimport": "^5.1.1",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-sass": "3.1.0",
-    "gulp-sourcemaps": "2.4.1",
-    "gulp-uglify": "^3.0.0",
-    "imagemin-pngquant": "^5.0.1"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+    "name": "vbm1",
+    "version": "2.0.0",
+    "description": "Сайт компании Вибробурмаш",
+    "main": "index.php",
+    "keywords": [],
+    "author": "Alexander Bombin",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bombin78/vbm1.git"
+    },
+    "bugs": {
+        "url": "https://github.com/bombin78/vbm1/issues"
+    },
+    "homepage": "https://github.com/bombin78/vbm1#readme",
+    "scripts": {
+        "start": "gulp dev",
+        "build": "gulp build"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "del": "^5.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect-php": "^1.0.3",
+        "gulp-cssimport": "^7.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
 }

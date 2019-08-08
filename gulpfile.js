@@ -67,8 +67,6 @@ function watcher() {
     gulp.watch('src/scss/**/*.scss', styles);
     // Следит за изменениями js файлов  в папке "src/js"
     gulp.watch('src/js/**/*.js', scripts);
-    // При изменении json файлов запустить синхронизацию
-    //gulp.watch('tpl/**/*.json').on('change', browserSync.reload);
     // При изменении php или json файлов запустить синхронизацию
     gulp.watch(['**/*.php', 'tpl/**/*.json']).on('change', browserSync.reload);
 }

@@ -15,7 +15,7 @@ switch ($page) {
 		$connect = "tpl/pages/main/main.php";
 		$activeItem = 1;
 		$title = "Главная";
-		$description = "";
+		$description = "Официальный сайт ООО'ВИБРОБУРМАШ' г.Бологое";
 		break;
 
 	case "2":

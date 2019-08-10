@@ -8,7 +8,7 @@ include_once("connect/connect.php");
 	<title><?php echo $title; ?></title>
 	<meta charset="utf-8">
 	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 	<link rel="stylesheet" href="vendors/gallery-master/css/blueimp-gallery.css">

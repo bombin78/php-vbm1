@@ -8,11 +8,11 @@
 	</p>
 
 	<!-- слайдер на главной -->
-	<?php include_once "tpl/pages/main/slider/slider.php" ?>
+	<?php include_once $path."tpl/pages/main/slider/slider.php" ?>
 	<!-- /слайдер на главной -->
 
 </section>
-<script src="<?php echo $absAddress; ?>vendors/nivo-slider/jquery.nivo.slider.js"></script>
+<script src="<?php echo $path; ?>vendors/nivo-slider/jquery.nivo.slider.js"></script>
 <script>
 	$(window).load(function () {
 		$('#slider').nivoSlider({controlNav: false});

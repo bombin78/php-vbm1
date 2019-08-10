@@ -1,8 +1,8 @@
 <?php
 
-function getSidebar($absAddress, $activeItem, $linkParam){
+function getSidebar($path, $activeItem, $linkParam){
 
-	$menuParams = json_decode(file_get_contents($absAddress.'/tpl/blocks/sidebar/sidebar.json'),true);
+	$menuParams = json_decode(file_get_contents($path.'/tpl/blocks/sidebar/sidebar.json'),true);
 	$menuLength = count($menuParams);
 
 	echo "<aside class='sidebar-container'>";
@@ -16,7 +16,7 @@ function getSidebar($absAddress, $activeItem, $linkParam){
 
 		echo "<li class = 'sidebar-menu__item'>";
 		echo "<div class = 'sidebar-menu__block-link'>";
-		echo "<a class='sidebar-menu__link" . $cssClassActive . "' href = '" . $absAddress . $menuParams[$i][$linkParam] . "'>";
+		echo "<a class='sidebar-menu__link" . $cssClassActive . "' href = '" . $path . $menuParams[$i][$linkParam] . "'>";
 		echo $menuParams[$i]['name'];
 		echo "</a>";
 		echo "</div>";
@@ -27,4 +27,4 @@ function getSidebar($absAddress, $activeItem, $linkParam){
 	echo "</aside>";
 }
 
-getSidebar($absAddress, $activeItem, $linkParam);
+getSidebar($path, $activeItem, $linkParam);

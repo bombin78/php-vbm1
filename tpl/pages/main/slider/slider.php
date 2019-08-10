@@ -1,8 +1,8 @@
 <?php
 
-function getSliderForMain($absAddress){
+function getSliderForMain($path){
 
-	$sliderParams = json_decode(file_get_contents($absAddress.'/tpl/pages/main/slider/slider.json'),true);
+	$sliderParams = json_decode(file_get_contents($path.'/tpl/pages/main/slider/slider.json'),true);
 	$sliderLength = count($sliderParams);
 
 	echo "<div class = 'main__slider theme-bar'>";
@@ -18,8 +18,8 @@ function getSliderForMain($absAddress){
 			$dt_tr = "";
 		}
 
-		echo "<img src = '" . $absAddress . $sliderParams[$i]['url'] . "'" .
-			"data-thumb='" . $absAddress . $sliderParams[$i]['url'] . "'" .
+		echo "<img src = '" . $path . $sliderParams[$i]['url'] . "'" .
+			"data-thumb='" . $path . $sliderParams[$i]['url'] . "'" .
 			$dt_tr .
 			" alt = '" . $sliderParams[$i]['title'] . "'" .
 			"title = '" . $sliderParamsn[$i]['title'] . "'>";
@@ -29,4 +29,4 @@ function getSliderForMain($absAddress){
 	echo "</div>";
 }
 
-getSliderForMain($absAddress);
+getSliderForMain($path);

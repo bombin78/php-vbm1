@@ -24,8 +24,8 @@
 				<tbody>
 				<tr class="table-photo__row">
 					<td class="table-photo__cell">
-						<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/sale-railway/big/kran_562.jpg" title="Кран КЖ-562 № 162">
-							<img class="table-photo__cell-img" alt="Кран КЖ-562 № 162" src="<?php echo $absAddress; ?>images/sale-railway/kran_562.jpg">
+						<a class="table-photo__cell-link" href="<?php echo $path; ?>images/sale-railway/big/kran_562.jpg" title="Кран КЖ-562 № 162">
+							<img class="table-photo__cell-img" alt="Кран КЖ-562 № 162" src="<?php echo $path; ?>images/sale-railway/kran_562.jpg">
 						</a>
 					</td>
 				</tr>

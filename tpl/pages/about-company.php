@@ -40,13 +40,13 @@
 	<table class="about-company__photo-ms1g2-1 table-photo blueimp-links">
 		<tr class="table-photo__row">
 			<td class="table-photo__cell">
-				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/ms1g2_1.jpg" title="Машина МС-1Г.2 - испытание">
-					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/ms1g2_1.jpg" alt="Машина МС-1Г.2 - испытание">
+				<a class="table-photo__cell-link" href="<?php echo $path; ?>images/about-company/big/ms1g2_1.jpg" title="Машина МС-1Г.2 - испытание">
+					<img class="table-photo__cell-img" src="<?php echo $path; ?>images/about-company/ms1g2_1.jpg" alt="Машина МС-1Г.2 - испытание">
 				</a>
 			</td>
 			<td class="table-photo__cell">
-				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/ms1g2_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
-					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/ms1g2_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+				<a class="table-photo__cell-link" href="<?php echo $path; ?>images/about-company/big/ms1g2_2.jpg" title="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
+					<img class="table-photo__cell-img" src="<?php echo $path; ?>images/about-company/ms1g2_2.jpg" alt="Машина на железнодорожном ходу для вибропогружения железобетонных свай и фундаментов опор контактной сети">
 				</a>
 			</td>
 		</tr>
@@ -62,13 +62,13 @@
 	<table class="about-company__photo-adm-mpt table-photo blueimp-links">
 		<tr class="table-photo__row">
 			<td class="table-photo__cell">
-				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
-					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/adm.JPG" alt="После ремонта - автомотриса АДМ">
+				<a class="table-photo__cell-link" href="<?php echo $path; ?>images/about-company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
+					<img class="table-photo__cell-img" src="<?php echo $path; ?>images/about-company/adm.JPG" alt="После ремонта - автомотриса АДМ">
 				</a>
 			</td>
 			<td class="table-photo__cell">
-				<a class="table-photo__cell-link" href="<?php echo $absAddress; ?>images/about-company/big/mpt.JPG" title="После ремонта - автомотриса МПТ">
-					<img class="table-photo__cell-img" src="<?php echo $absAddress; ?>images/about-company/mpt.JPG" alt="После ремонта - автомотриса МПТ">
+				<a class="table-photo__cell-link" href="<?php echo $path; ?>images/about-company/big/mpt.JPG" title="После ремонта - автомотриса МПТ">
+					<img class="table-photo__cell-img" src="<?php echo $path; ?>images/about-company/mpt.JPG" alt="После ремонта - автомотриса МПТ">
 				</a>
 			</td>
 		</tr>

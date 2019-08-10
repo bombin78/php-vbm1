@@ -1,5 +1,5 @@
 <?php
-$absAddress = "./";
+$path = "./";
 $dev = TRUE;//TRUE - for development, FALSE - for production
 
 if($dev){

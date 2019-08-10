@@ -1,6 +1,6 @@
 <?php
 //-------- Подключение файла конфигурации ---------
-include_once("config/config.php");
+include_once($path."config/config.php");
 //-------------------------------------------------
 
 

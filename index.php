@@ -10,10 +10,10 @@ include_once($path."connect/connect.php");
 	<meta name="keywords" content="">
 	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href='<?php echo $path; ?>favicon.ico'>
-	<link rel="stylesheet" href='<?php echo $path; ?>vendors/gallery-master/css/blueimp-gallery.css'>
-	<link rel="stylesheet" type="text/css" href='<?php echo $path; ?>css/style.css'>
-	<script type="text/javascript" src='<?php echo $path; ?>vendors/jquery-1.11.2.min.js'></script>
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo $path; ?>favicon.ico">
+	<link rel="stylesheet" href="<?php echo $path; ?>vendors/gallery-master/css/blueimp-gallery.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/style.css">
+	<script type="text/javascript" src="<?php echo $path; ?>vendors/jquery-1.11.2.min.js"></script>
 	<!--[if lt IE 9]>
 	<script>
 		var e = ("article,aside,footer,header,nav,section").split(',');
@@ -21,10 +21,10 @@ include_once($path."connect/connect.php");
 			document.createElement(e[i]);
 		}
 	</script>
-	<link rel="stylesheet" type="text/css" href='<?php echo $path; ?>css/src/IE8.css'>
+	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/src/IE8.css">
 	<![endif]-->
 	<!--[if lt IE 8]>
-	<script type="text/javascript" src='<?php echo $path; ?>js/ie6-7blocker.js'></script>
+	<script type="text/javascript" src="<?php echo $path; ?>js/ie6-7blocker.js"></script>
 	<![endif]-->
 </head>
 <body>
@@ -57,8 +57,8 @@ include_once($path."connect/connect.php");
 		<!-- /модальное окно галереи-->
 	</div>
 </div>
-<input id='abs_address' type='hidden' value='<?php echo $path; ?>'><!-- for gallery-master -->
-<script src='<?php echo $path; ?>vendors/gallery-master/js/jquery.blueimp-gallery.min.js'></script>
+<input id="abs_address" type="hidden" value="<?php echo $path; ?>"><!-- for gallery-master -->
+<script src="<?php echo $path; ?>vendors/gallery-master/js/jquery.blueimp-gallery.min.js"></script>
 <script>
 	$('.blueimp-links').on('click', function (event) {
 		event = event || window.event;
@@ -69,7 +69,7 @@ include_once($path."connect/connect.php");
 		blueimp.Gallery(links, options);
 	});
 </script>
-<script type="text/javascript" src='<?php echo $path; ?>js/modules-control.js'></script>
+<script type="text/javascript" src="<?php echo $path; ?>js/modules-control.js"></script>
 <!-- Yandex.Metrika counter -->
 
 <!-- /Yandex.Metrika counter -->

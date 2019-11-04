@@ -2,8 +2,25 @@
 
 	<h2 class="documents__content-title content-title">Документы</h2>
 
-	<!-- <ul class="documents__documents-review documents-review blueimp-links">
+	<ul class="documents__documents-review documents-review blueimp-links">
+
 		<li class="documents-review_list">
+
+			<h3 class="documents-review__title">1. Патенты</h3>
+
+			<ul class="documents-review__list document-pages">
+
+				<li class="document-pages__item">
+					<a class="document-pages__link" href="<?php echo $path; ?>images/documents/big/patent-192676.jpg" title="Патент: машина для вибропогружения свай и свайных фундаментов опор контактной сети">
+						<img class="document-pages__img" src="<?php echo $path; ?>images/documents/patent-192676.jpg" alt="Патент на полезную мадель № 192676">
+					</a>
+				</li>
+
+			</ul>
+
+		</li>
+
+		<? /*<li class="documents-review_list">
 
 			<h3 class="documents-review__title">1. Сертификаты соответствия ГОСТ ISO 9001-2011/2015.</h3>
 
@@ -30,6 +47,7 @@
 			</ul>
 
 		</li>
+
 		<li class="documents-review__list">
 
 			<h3 class="documents-review__title">2. Сертификат соответствия №ДСЖТ RU.OC01.П.00225</h3>
@@ -57,7 +75,8 @@
 
 			</ul>
 
-		</li>
-	</ul> -->
-	
+		</li>*/ ?>
+
+	</ul>
+
 </section>

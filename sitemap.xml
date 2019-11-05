@@ -11,6 +11,11 @@
             <priority>0.6</priority>
         </url>
         <url>
+            <loc>http://vbm1.ru/documenty</loc>
+            <changefreq>monthly</changefreq>
+            <priority>0.6</priority>
+        </url>
+        <url>
             <loc>http://vbm1.ru/kontakty</loc>
             <changefreq>monthly</changefreq>
             <priority>0.6</priority>

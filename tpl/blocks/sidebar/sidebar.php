@@ -16,7 +16,7 @@ function getSidebar($path, $activeItem, $linkParam){
 
 		echo "<li class = 'sidebar-menu__item'>";
 		echo "<div class = 'sidebar-menu__block-link'>";
-		echo "<a class='sidebar-menu__link" . $cssClassActive . "' href = '" . $path . $menuParams[$i][$linkParam] . "'>";
+		echo "<a class='sidebar-menu__link" . $cssClassActive . "' href = '/" . $menuParams[$i][$linkParam] . "'>";
 		echo $menuParams[$i]['name'];
 		echo "</a>";
 		echo "</div>";

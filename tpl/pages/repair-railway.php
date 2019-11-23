@@ -23,13 +23,13 @@
 				<tbody>
 				<tr class="table-photo__row">
 					<td class="table-photo__cell">
-						<a class="table-photo__cell-link" href="<?php echo $path; ?>images/repair-railway/big/kzs_1.jpg" title="Кран КЖС16 № 71 - фото 1">
-							<img class="table-photo__cell-img" alt="1. Кран КЖС16 № 71" src="<?php echo $path; ?>images/repair-railway/kzs_1.jpg">
+						<a class="table-photo__cell-link" href="/images/repair-railway/big/kzs_1.jpg" title="Кран КЖС16 № 71 - фото 1">
+							<img class="table-photo__cell-img" alt="1. Кран КЖС16 № 71" src="/images/repair-railway/kzs_1.jpg">
 						</a>
 					</td>
 					<td class="table-photo__cell">
-						<a class="table-photo__cell-link" href="<?php echo $path; ?>images/repair-railway/big/kzs_2.jpg" title="Кран КЖС16 № 71 - фото 2">
-							<img class="table-photo__cell-img" alt="2. Кран КЖС16 № 71" src="<?php echo $path; ?>images/repair-railway/kzs_2.jpg">
+						<a class="table-photo__cell-link" href="/images/repair-railway/big/kzs_2.jpg" title="Кран КЖС16 № 71 - фото 2">
+							<img class="table-photo__cell-img" alt="2. Кран КЖС16 № 71" src="/images/repair-railway/kzs_2.jpg">
 						</a>
 					</td>
 				</tr>

@@ -12,8 +12,8 @@
 
 			<div class="make-hinged__block blueimp-links">
 
-				<a class="make-hinged__img-link" href="<?php echo $path; ?>images/make-hinged/big/drilling-equipment.jpg" title="Буровое оборудование для устройства лидерных скважин">
-					<img class="make-hinged__img" alt="Буровое оборудование" src="<?php echo $path; ?>images/make-hinged/drilling-equipment.jpg">
+				<a class="make-hinged__img-link" href="/images/make-hinged/big/drilling-equipment.jpg" title="Буровое оборудование для устройства лидерных скважин">
+					<img class="make-hinged__img" alt="Буровое оборудование" src="/images/make-hinged/drilling-equipment.jpg">
 				</a>
 
 				<p class="make-hinged__text">
@@ -141,8 +141,8 @@
 
 			<div class="make-hinged__block blueimp-links">
 
-				<a class="make-hinged__img-link" href="<?php echo $path; ?>images/make-hinged/big/pneumatic-impact-equipment.jpg" title="Пневмоударное оборудование для бурения скальных грунтов (диам. 400 мм)">
-					<img class="make-hinged__img" alt="Пневмоударное оборудование" src="<?php echo $path; ?>images/make-hinged/pneumatic-impact-equipment.jpg">
+				<a class="make-hinged__img-link" href="/images/make-hinged/big/pneumatic-impact-equipment.jpg" title="Пневмоударное оборудование для бурения скальных грунтов (диам. 400 мм)">
+					<img class="make-hinged__img" alt="Пневмоударное оборудование" src="/images/make-hinged/pneumatic-impact-equipment.jpg">
 				</a>
 
 				<p class="make-hinged__text">

@@ -13,7 +13,7 @@
 	<!-- /слайдер на главной -->
 
 </section>
-<script src="<?php echo $path; ?>vendors/nivo-slider/jquery.nivo.slider.js"></script>
+<script src="/vendors/nivo-slider/jquery.nivo.slider.js"></script>
 <script>
 	$(window).load(function () {
 		$('#slider').nivoSlider({controlNav: false});

@@ -13,7 +13,7 @@ function getMenu($path, $activeItem, $linkParam){
 		$cssClassEnd = ($menuParams[$i]['id'] == $menuLength) ? " _end" : "";
 
 		echo "<li class = 'menu__item" . $cssClassEnd ."''>";
-		echo "<a class = 'menu__link" . $cssClassActive . "' href = '" . $path . $menuParams[$i][$linkParam] . "'>";
+		echo "<a class = 'menu__link" . $cssClassActive . "' href = '/" . $menuParams[$i][$linkParam] . "'>";
 		echo $menuParams[$i]['name'];
 		echo "</a>";
 		echo "</li>";

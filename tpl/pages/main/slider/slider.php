@@ -18,8 +18,8 @@ function getSliderForMain($path){
 			$dt_tr = "";
 		}
 
-		echo "<img src = '" . $path . $sliderParams[$i]['url'] . "'" .
-			"data-thumb='" . $path . $sliderParams[$i]['url'] . "'" .
+		echo "<img src = '/" . $sliderParams[$i]['url'] . "'" .
+			"data-thumb='/" . $sliderParams[$i]['url'] . "'" .
 			$dt_tr .
 			" alt = '" . $sliderParams[$i]['title'] . "'" .
 			"title = '" . $sliderParamsn[$i]['title'] . "'>";

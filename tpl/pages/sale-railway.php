@@ -2,7 +2,7 @@
 
 	<h2 class="sale-railway__content-title content-title">Продажа б/у железнодорожной техники</h2>
 
-	<? /* <ul class="sale-list">
+	<?php /* <ul class="sale-list">
 		<li class="sale-list__item">
 
 			<h3 class="sale-list__title">

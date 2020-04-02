@@ -4,9 +4,9 @@
 
 	<h3 class="contacts__title">Общество с ограниченной ответственностью «Вибробурмашина»</h3>
 
-	<dl class="contacts__dtl dtl">
+	<dl class="contacts__company-name dtl">
 		<dt class="dtl__l">Сокращенное название:</dt>
-		<dd class="dtl__v">ООО «ВИБРОБУРМАШ»</dd>
+		<dd class="dtl__v"><strong>ООО «ВИБРОБУРМАШ»</strong></dd>
 	</dl>
 
 	<dl class="contacts__dtl dtl">
@@ -30,6 +30,16 @@
 	</dl>
 
 	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">ИНН:</dt>
+		<dd class="dtl__v">6908018170</dd>
+	</dl>
+
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">ОГРН:</dt>
+		<dd class="dtl__v">1196952001180</dd>
+	</dl>
+
+	<dl class="contacts__dtl dtl">
 		<dt class="dtl__l">Тел:</dt>
 		<dd class="dtl__v"><?= $numPhone?></dd>
 	</dl>
@@ -42,12 +52,6 @@
 			</a>
 		</dd>
 	</dl>
-
-	<p class="contacts__codes">
-		ИНН 6908018170; КПП 690801001;
-		ОГРН 1196952001180; ОКПО 35737501; ОКОГУ 4210014; ОКАТО 28408000000;
-		ОКТМО 28608101001; ОКОПФ 12300; ОКВЭД 28.92; 77.39.12; 77.12; 77.11; 30.20'
-	</p>
 
 	<h3 class="contacts__title">Расположение на карте</h3>
 

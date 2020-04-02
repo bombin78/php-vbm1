@@ -1,6 +1,6 @@
 <?php
 $path = "./";
-$dev = FALSE;//TRUE - for development, FALSE - for production
+$dev = TRUE;//TRUE - for development, FALSE - for production
 
 if($dev){
 	$linkParam = 'url';

@@ -63,7 +63,7 @@
 		<div class="contacts-schedule__info">
 			<dl class="contacts-schedule__dtl dtl">
 				<dt class="dtl__l">пн-пт:</dt>
-				<dd class="dtl__v">c 08:00 до 19:00</dd>
+				<dd class="dtl__v">c 08:00 до 17:00</dd>
 			</dl>
 
 			<dl class="contacts-schedule__dtl dtl">

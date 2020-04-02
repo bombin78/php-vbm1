@@ -6,19 +6,25 @@
 
 		<li class="documents-review_list">
 
-			<h3 class="documents-review__title">1. Патенты и сертификаты</h3>
+			<h3 class="documents-review__title">Патенты, сертификаты и свидетельства</h3>
 
 			<ul class="documents-review__list document-pages">
 
 				<li class="document-pages__item">
-					<a class="document-pages__link" href="/images/documents/big/patent-192676.jpg" title="Патент: машина для вибропогружения свай и свайных фундаментов опор контактной сети">
-						<img class="document-pages__img" src="/images/documents/patent-192676.jpg" alt="Патент на полезную мадель № 192676">
+					<a class="document-pages__link" href="/images/documents/big/707х1000_patent-192676.jpg" title="Патент: машина для вибропогружения свай и свайных фундаментов опор контактной сети">
+						<img class="document-pages__img" src="/images/documents/195х275_patent-192676.jpg" alt="Патент на полезную мадель № 192676">
 					</a>
 				</li>
 
 				<li class="document-pages__item">
-					<a class="document-pages__link" href="/images/documents/big/sert-1.jpg" title="Сертификат соответствия">
-						<img class="document-pages__img" src="/images/documents/sert-1.jpg" alt="Сертификат соответствия требованиям ГОСТ Р ИСО 9001-2015 (ISO 9001:2015)">
+					<a class="document-pages__link" href="/images/documents/big/707х1000_sert-1.jpg" title="Сертификат соответствия">
+						<img class="document-pages__img" src="/images/documents/195х275_sert-1.jpg" alt="Сертификат соответствия требованиям ГОСТ Р ИСО 9001-2015 (ISO 9001:2015)">
+					</a>
+				</li>
+
+				<li class="document-pages__item">
+					<a class="document-pages__link" href="/images/documents/big/707х1000_sert-2.jpg" title="Свидетельство о присвоении условного номера для клеймения ССПС">
+						<img class="document-pages__img" src="/images/documents/195х275_sert-2.jpg" alt="Свидетельство № 156/20 от 18.02.2020 о присвоении условного номера 2278 для клеймения ССПС">
 					</a>
 				</li>
 
@@ -26,7 +32,7 @@
 
 		</li>
 
-		<? /*<li class="documents-review_list">
+		<?php /*<li class="documents-review_list">
 
 			<h3 class="documents-review__title">1. Сертификаты соответствия ГОСТ ISO 9001-2011/2015.</h3>
 

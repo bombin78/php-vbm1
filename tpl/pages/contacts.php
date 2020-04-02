@@ -1,57 +1,76 @@
 <section class="contacts">
 
-	<h2 class="contacts__content-title content-title">Контакты и реквизиты</h2>
+	<h2 class="contacts__content-title content-title">Контакты</h2>
 
-	<div class="contacts__basic basic-info">
+	<h3 class="contacts__title">Общество с ограниченной ответственностью «Вибробурмашина»</h3>
 
-		<h3 class="basic-info__title">Контакты</h3>
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">Сокращенное название:</dt>
+		<dd class="dtl__v">ООО «ВИБРОБУРМАШ»</dd>
+	</dl>
 
-		<div class="basic-info__location location-map">
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">Генеральный директор:</dt>
+		<dd class="dtl__v">Аверин Михаил Борисович</dd>
+	</dl>
 
-			<p class="location-map__text">Расположение на карте:</p>
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">Главный бухгалтер:</dt>
+		<dd class="dtl__v">Игнатьева Ирина Владимировна</dd>
+	</dl>
 
-			<div class="location-map__img">
-				<!-- Расположение компании на яндекс карте -->
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Azx4XsME5usvRafl7TBnSG1LV7h32iYB6&amp;width=385&amp;height=270&amp;lang=ru_RU&amp;scroll=true"></script>
-			</div>
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">Юр.адрес:</dt>
+		<dd class="dtl__v">171075, Тверская обл., Бологовский район, г.Бологое, ул.Кирпичная, д.1А., оф.1.</dd>
+	</dl>
 
-		</div>
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">Факт.адрес:</dt>
+		<dd class="dtl__v">171075, Тверская обл., Бологовский район, г.Бологое, ул.Кирпичная, д.1А., оф.1.</dd>
+	</dl>
 
-		<div class="basic-info__top top-managers">
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">Тел:</dt>
+		<dd class="dtl__v"><?= $numPhone?></dd>
+	</dl>
 
-			<p class="top-managers__block">
-				<?php if($contactPerson_1) echo $contactPerson_1; ?>
-			</p>
+	<dl class="contacts__dtl dtl">
+		<dt class="dtl__l">E-mail:</dt>
+		<dd class="dtl__v">
+			<a class="contacts-email" href="mailto:<?= $eMail?>">
+				<?= $eMail?>
+			</a>
+		</dd>
+	</dl>
 
-			<p class="top-managers__block">
-				<?php  if($contactPerson_2) echo $contactPerson_2; ?>
-			</p>
+	<p class="contacts__codes">
+		ИНН 6908018170; КПП 690801001;
+		ОГРН 1196952001180; ОКПО 35737501; ОКОГУ 4210014; ОКАТО 28408000000;
+		ОКТМО 28608101001; ОКОПФ 12300; ОКВЭД 28.92; 77.39.12; 77.12; 77.11; 30.20'
+	</p>
 
-			<p class="top-managers__block">
-				<?php if($index) echo $index; ?><br>
-				<?php if($location) echo $location; ?><br>
-				<?php if($numPhone_1) echo $numPhone_1; ?><br>
-				<?php if($numPhone_2) echo $numPhone_2; ?>
-			</p>
+	<h3 class="contacts__title">Расположение на карте</h3>
 
-			<p class="top-managers__block">
-				e-mail:
-				<a class="top-managers__mail" href="mailto:<?php echo $eMail; ?>">
-					<?php echo $eMail; ?>
-				</a>
-			</p>
-
-		</div>
-
+	<div class="contacts__map">
+		<!-- Расположение компании на яндекс карте -->
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Azx4XsME5usvRafl7TBnSG1LV7h32iYB6&amp;width=620&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>
 	</div>
 
-	<div class="contacts__company company-details">
+	<div class="contacts-schedule">
 
-		<h3 class="company-details__title">Реквизиты</h3>
+		<h3 class="contacts-schedule__title">Время работы</h3>
 
-		<p class="company-details__info">
-			<?php if($companyDetails) echo $companyDetails; ?>
-		</p>
+		<div class="contacts-schedule__info">
+			<dl class="contacts-schedule__dtl dtl">
+				<dt class="dtl__l">пн-пт:</dt>
+				<dd class="dtl__v">c 08:00 до 19:00</dd>
+			</dl>
+
+			<dl class="contacts-schedule__dtl dtl">
+				<dt class="dtl__l">сб-вс:</dt>
+				<dd class="dtl__v">выходной</dd>
+			</dl>
+		</div>
 
 	</div>
 
